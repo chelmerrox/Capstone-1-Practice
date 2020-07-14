@@ -16,6 +16,15 @@
     width: 30px;
     height: 30px;
   }
+  .navbar-3 .navbar-3-2 .search-icon .search-1, .navbar-3 .navbar-3-2 .trolley-icon .trolley-1, .navbar-3 .navbar-3-2 .person-icon .person-1 {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .navbar-3 .navbar-3-2 .search-icon .search-1, .navbar-3 .navbar-3-2 .trolley-icon .trolley-1, .navbar-3 .navbar-3-2 .person-icon .person-1 {
+    display: flex !important;
+    flex-direction: row !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
