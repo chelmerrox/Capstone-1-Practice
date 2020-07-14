@@ -7,6 +7,15 @@
   .navbar-1, .navbar-2 {
     display: none !important;
   }
+
+  .navbar-3 {
+    display: flex !important;
+    justify-content: space-between;
+  }
+  .navbar-3 .navbar-3-logo {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
