@@ -7,3 +7,37 @@
         .links-1-2
           margin-top: 10px !important
           margin-left: 10px !important
+
+  .img-container-2-2
+    .row
+      display: grid !important
+      grid-template-columns: repeat(4, 1fr) !important
+      grid-template-rows: repeat(2, 1fr) !important
+      margin: 0 auto
+      max-width: 1440px
+
+      .grid-2-1, .grid-2-2, .grid-2-3, .grid-2-4
+        grid-row-start: 1 !important
+        grid-row-end: 2 !important
+
+      .grid-2-5, .grid-2-6, .grid-2-7, .grid-2-8
+          grid-row-start: 2 !important
+          grid-row-end: 3 !important
+
+      .grid-2-1, .grid-2-5
+          grid-column-start: 1 !important
+          grid-column-end: 2 !important
+    
+      .grid-2-2, .grid-2-6
+          grid-column-start: 2 !important
+          grid-column-end: 3 !important
+
+      .grid-2-3, .grid-2-7
+          grid-column-start: 3 !important
+          grid-column-end: 4 !important
+
+      .grid-2-4, .grid-2-8
+          grid-column-start: 4 !important
+          grid-column-end: 5 !important
+    
+        
