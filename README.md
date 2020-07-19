@@ -8,13 +8,13 @@ This is a solo project where I had to replicate/clone the <a href="https://accou
 
 ![Mobile preview](images/mobile_preview.PNG)
 
-### Tablet Screen
+### Tablet & Laptop Screen
 
 ![Tablet preview](images/tablet_preview.PNG)
 
-### Laptop Screen
+### Extra Large Screen
 
-![Laptop preview](images/laptop_preview.PNG)
+![Extra Large preview](images/extra_large_preview.PNG)
 
 ## Built With
 
