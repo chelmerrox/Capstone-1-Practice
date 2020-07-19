@@ -21,7 +21,6 @@ This is a solo project where I had to replicate/clone the <a href="https://accou
 - HTML5
 - CSS3
 - <a href="https://materializecss.com/icons.html">Google icons</a>
-- SVG icons
 - Bootstrap 4
 - Sass
 
