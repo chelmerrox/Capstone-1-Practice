@@ -4,7 +4,7 @@ This is a solo project where I had to replicate/clone the <a href="https://accou
 
 ## Preview of web page
 
-![Microsoft webpage preview](images/webpage_preview.PNG)
+![Microsoft webpage preview](images/webpage_preview.png)
 
 ## Built With
 
