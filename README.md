@@ -4,17 +4,7 @@ This is a solo project where I had to replicate/clone the <a href="https://accou
 
 ## Preview of web page
 
-### Mobile Screen
-
-![Mobile preview](images/mobile_preview.PNG)
-
-### Tablet & Laptop Screen
-
-![Tablet preview](images/tablet_preview.PNG)
-
-### Extra Large Screen
-
-![Extra Large preview](images/extra_large_preview.PNG)
+![Microsoft webpage preview](images/webpage_preview.PNG)
 
 ## Built With
 
