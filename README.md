@@ -1,27 +1,16 @@
-# Slack Web page - Capstone 1 Project Practice
+# Microsoft Web page - Capstone 1 Project Practice
 
-This is a solo project where I had to replicate/clone the <a href="https://slack.com/ssb/signin">Slack sign-in web page.</a>
+This is a solo project where I had to replicate/clone the <a href="https://account.microsoft.com/account/Account?refd=login.live.com&ru=https%3A%2F%2Faccount.microsoft.com%2F%3Frefd%3Dlogin.live.com&destrt=home-index">Microsoft web page.</a>
 
 ## Preview of web page
 
-### Mobile Screen
-
-![Mobile preview](images/mobile_preview.PNG)
-
-### Tablet Screen
-
-![Tablet preview](images/tablet_preview.PNG)
-
-### Laptop Screen
-
-![Laptop preview](images/laptop_preview.PNG)
+![Microsoft webpage preview](images/webpage_preview.png)
 
 ## Built With
 
 - HTML5
 - CSS3
 - <a href="https://materializecss.com/icons.html">Google icons</a>
-- SVG icons
 - Bootstrap 4
 - Sass
 

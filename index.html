@@ -8,10 +8,558 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link href="styles/style.css" type="text/css" rel="stylesheet"/>
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-      <title>Slack Website - Capstone 1 Practice</title>
+      <title>Microsoft Web page - Capstone 1 Practice</title>
     </head>
 
     <body>
+      <!--Navbar 1-->
+      <nav class="navbar-1 navbar d-flex d-sm-flex d-md-flex justify-content-between justify-content-sm-between justify-content-md-between border border-top-0 border-left-0 border-right-0 border-secondary">
+        <div>
+          <i class="material-icons text-muted">menu</i>
+          <i class="material-icons text-muted ml-3">search</i>
+        </div>
+
+        <div class="d-flex d-sm-flex d-md-flex justify-content-between justify-content-sm-between justify-content-md-between">
+            <!--Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
+            <!--Microsoft icon-->
+            <svg class="navbar-1-logo" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <path style="fill:#4CAF50;" d="M272,240h240V16c0-8.832-7.168-16-16-16H272V240z"/>
+              <path style="fill:#F44336;" d="M240,240V0H16C7.168,0,0,7.168,0,16v224H240z"/>
+              <path style="fill:#2196F3;" d="M240,272H0v224c0,8.832,7.168,16,16,16h224V272z"/>
+              <path style="fill:#FFC107;" d="M272,272v240h224c8.832,0,16-7.168,16-16V272H272z"/>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g> 
+            </svg> 
+          <h4 class="text-muted text-capitalize ml-3">microsoft</h4>
+        </div>
+
+        <div>
+          <i class="material-icons text-muted mr-3">shopping_cart</i>
+          <i class="material-icons text-muted">person_add</i>
+        </div>
+      </nav>
+
+      <!--Navbar 2-->
+      <nav class="navbar-2 navbar d-flex d-sm-flex d-md-flex justify-content-start justify-content-sm-start justify-content-md-start border border-top-0 border-left-0 border-right-0 border-secondary">
+        <h5 class="text-muted text-capitalize">account</h5>
+        <i class="material-icons text-muted ml-3">keyboard_arrow_down</i>
+      </nav>
+
+      <!--Navbar 3-->
+      <nav class="navbar-3 navbar d-none d-sm-none d-md-none border border-top-0 border-left-0 border-right-0 border-secondary">
+        <div class="d-flex">
+            <!--Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
+            <!--Microsoft icon-->
+            <svg class="navbar-3-logo" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                <path style="fill:#4CAF50;" d="M272,240h240V16c0-8.832-7.168-16-16-16H272V240z"/>
+                <path style="fill:#F44336;" d="M240,240V0H16C7.168,0,0,7.168,0,16v224H240z"/>
+                <path style="fill:#2196F3;" d="M240,272H0v224c0,8.832,7.168,16,16,16h224V272z"/>
+                <path style="fill:#FFC107;" d="M272,272v240h224c8.832,0,16-7.168,16-16V272H272z"/>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g> 
+            </svg> 
+            <h4 class="text-muted text-capitalize ml-3">microsoft<span class="mx-2">|</span></h4>
+            <h5 class="text-muted text-capitalize mr-2">account</h5>
+            <small class="text-muted text-capitalize">help</small>
+        </div>
+
+        <div class="d-flex justify-content-between navbar-3-2">
+            <p class="mr-2 search-icon"><span class="text-muted text-capitalize search-1">search</span><i class="material-icons text-muted">search</i></p>
+            <p class="mr-2 trolley-icon"><span class="text-muted text-capitalize trolley-1">cart</span><i class="material-icons text-muted">shopping_cart</i></p>
+            <p class="mr-2 person-icon"><span class="text-muted text-capitalize person-1">sign in</span><i class="material-icons text-muted">person_add</i></p>
+        </div>
+      </nav>
+
+      <main class="container-fluid">
+       <!--Image container 1 for extra small & mobile (sm) screen sizes-->
+       <div class="row card d-md-none border-0 img-container-1-1">
+         <img src="images/image-1.png" alt="Image 1" class="card-img-top border-radius-none"/>
+         <div class="card-body bg-dark p-5 w-100">
+            <h4 class="card-title text-white font-weight-bold text-center">One account for all things Microsoft</h4>
+            <p class="text-white text-center">One account. One place to manage it all. Welcome to your account dashboard.</p>
+
+            <div class="d-flex d-sm-flex justify-content-center justify-content-sm-center">
+              <a href="#" class="text-white text-capitalize btn btn-primary font-weight-bold">sign in ></a>
+              <a href="#" class="text-white text-capitalize ml-3 mt-2 font-weight-bold">Create a Microsoft account ></a>
+            </div>
+         </div>
+       </div>
+
+       <!--Image container 1 for tablet, laptop & extra large screen sizes-->
+       <div class="row card d-none d-sm-none d-md-flex d-lg-flex d-xl-flex img-container-1-2 border-0">
+        <img src="images/image-1.png" alt="Image 1" class="card-img"/>
+        <div class="card-img-overlay d-flex flex-column align-content-center my-md-5 pl-md-4 py-lg-5 pl-lg-4 my-xl-5 pl-xl-4">
+          <h2 class="card-text text-white font-weight-bold text-left">One account for all things Microsoft</h2>
+          <p class="card-text text-white text-left">One account. One place to manage it all. Welcome to your account dashboard.</p>
+          <div class="img-container-1-2-links">
+            <a href="#" class="text-white text-capitalize btn btn-primary font-weight-bold mb-3">sign in ></a>
+            <a href="#" class="text-white text-capitalize font-weight-bold d-block links-1-2">Create a Microsoft account ></a>
+          </div>
+        </div>
+       </div>
+
+       <!--Image container 2 for extra small, mobile & tablet screen sizes-->
+       <div class="row container d-flex d-sm-flex d-md-flex d-lg-none d-xl-none img-container-2">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 card border-0 d-flex d-sm-flex d-md-flex flex-column flex-sm-column flex-md-column align-content-center align-content-sm-center align-content-md-center">
+            <img src="images/image-2.svg" alt="Image 2" class="card-img-top w-100 h-50"/>
+            <div class="card-body">
+              <h4 class="text-center">New to Microsoft?</h4>
+              <p class="text-center">Get started with Microsoft products and more.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="text-primary">Learn more ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 card border-0 d-flex d-sm-flex d-md-flex flex-column flex-sm-column flex-md-column align-content-center align-content-sm-center align-content-md-center">
+            <img src="images/image-2.svg" alt="Image 2" class="card-img-top"/>
+            <div class="card-body">
+              <h4 class="text-center">New to Microsoft?</h4>
+              <p class="text-center">Get started with Microsoft products and more.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="text-primary">Learn more ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 card border-0 d-flex d-sm-flex d-md-flex flex-column flex-sm-column flex-md-column align-content-center align-content-sm-center align-content-md-center">
+            <img src="images/image-2.svg" alt="Image 2" class="card-img-top"/>
+            <div class="card-body">
+              <h4 class="text-center">New to Microsoft?</h4>
+              <p class="text-center">Get started with Microsoft products and more.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="text-primary">Learn more ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 card border-0 d-flex d-sm-flex d-md-flex flex-column flex-sm-column flex-md-column align-content-center align-content-sm-center align-content-md-center">
+            <img src="images/image-2.svg" alt="Image 2" class="card-img-top"/>
+            <div class="card-body">
+              <h4 class="text-center">New to Microsoft?</h4>
+              <p class="text-center">Get started with Microsoft products and more.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="text-primary">Learn more ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 card border-0 d-flex d-sm-flex d-md-flex flex-column flex-sm-column flex-md-column align-content-center align-content-sm-center align-content-md-center">
+            <img src="images/image-2.svg" alt="Image 2" class="card-img-top"/>
+            <div class="card-body">
+              <h4 class="text-center">New to Microsoft?</h4>
+              <p class="text-center">Get started with Microsoft products and more.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="text-primary">Learn more ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 card border-0 d-flex d-sm-flex d-md-flex flex-column flex-sm-column flex-md-column align-content-center align-content-sm-center align-content-md-center">
+            <img src="images/image-2.svg" alt="Image 2" class="card-img-top"/>
+            <div class="card-body">
+              <h4 class="text-center">New to Microsoft?</h4>
+              <p class="text-center">Get started with Microsoft products and more.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="text-primary">Learn more ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 card border-0 d-flex d-sm-flex d-md-flex flex-column flex-sm-column flex-md-column align-content-center align-content-sm-center align-content-md-center">
+            <img src="images/image-2.svg" alt="Image 2" class="card-img-top"/>
+            <div class="card-body">
+              <h4 class="text-center">New to Microsoft?</h4>
+              <p class="text-center">Get started with Microsoft products and more.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="text-primary">Learn more ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 card border-0 d-flex d-sm-flex d-md-flex flex-column flex-sm-column flex-md-column align-content-center align-content-sm-center align-content-md-center">
+            <img src="images/image-2.svg" alt="Image 2" class="card-img-top"/>
+            <div class="card-body">
+              <h4 class="text-center">New to Microsoft?</h4>
+              <p class="text-center">Get started with Microsoft products and more.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="text-primary">Learn more ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+
+       <!--Image container 2 for laptop & extra large screen sizes-->
+       <div class="row container-fluid d-none d-sm-none d-md-none d-lg-flex d-xl-flex img-container-2-2">
+        <div class="row">
+          <div class="col-lg-12 card border border-left-0 border-top-0 border-bottom-0 border-secondary grid-2-1 mt-3 py-3">
+            <img src="images/image-2.svg" alt="Image 2" class="card-img-top w-100 h-50"/>
+            <div class="card-body">
+              <h4 class="text-center">New to Microsoft?</h4>
+              <p class="text-center">Get started with Microsoft products and more.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="text-primary">Learn more ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12 card border border-left-0 border-top-0 border-bottom-0 border-secondary grid-2-2 mt-3 py-3">
+            <img src="images/image-2.svg" alt="Image 2" class="card-img-top w-100 h-50"/>
+            <div class="card-body">
+              <h4 class="text-center">New to Microsoft?</h4>
+              <p class="text-center">Get started with Microsoft products and more.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="text-primary">Learn more ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12 card border border-left-0 border-top-0 border-bottom-0 border-secondary grid-2-3 mt-3 py-3">
+            <img src="images/image-2.svg" alt="Image 2" class="card-img-top w-100 h-50"/>
+            <div class="card-body">
+              <h4 class="text-center">New to Microsoft?</h4>
+              <p class="text-center">Get started with Microsoft products and more.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="text-primary">Learn more ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12 card border-0 grid-2-4 mt-3 py-3">
+            <img src="images/image-2.svg" alt="Image 2" class="card-img-top w-100 h-50"/>
+            <div class="card-body">
+              <h4 class="text-center">New to Microsoft?</h4>
+              <p class="text-center">Get started with Microsoft products and more.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="text-primary">Learn more ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12 card border border-left-0 border-top-0 border-bottom-0 border-secondary grid-2-5 mt-4 py-3">
+            <img src="images/image-2.svg" alt="Image 2" class="card-img-top w-100 h-50"/>
+            <div class="card-body">
+              <h4 class="text-center">New to Microsoft?</h4>
+              <p class="text-center">Get started with Microsoft products and more.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="text-primary">Learn more ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12 card border border-left-0 border-top-0 border-bottom-0 border-secondary grid-2-6 mt-4 py-3">
+            <img src="images/image-2.svg" alt="Image 2" class="card-img-top w-100 h-50"/>
+            <div class="card-body">
+              <h4 class="text-center">New to Microsoft?</h4>
+              <p class="text-center">Get started with Microsoft products and more.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="text-primary">Learn more ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12 card border border-left-0 border-top-0 border-bottom-0 border-secondary grid-2-7 mt-4 py-3">
+            <img src="images/image-2.svg" alt="Image 2" class="card-img-top w-100 h-50"/>
+            <div class="card-body">
+              <h4 class="text-center">New to Microsoft?</h4>
+              <p class="text-center">Get started with Microsoft products and more.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="text-primary">Learn more ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12 card border-0 grid-2-8 mt-4 py-3">
+            <img src="images/image-2.svg" alt="Image 2" class="card-img-top w-100 h-50"/>
+            <div class="card-body">
+              <h4 class="text-center">New to Microsoft?</h4>
+              <p class="text-center">Get started with Microsoft products and more.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="text-primary">Learn more ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+
+       <!--Section 3 container-->
+       <section class="row mt-3 mt-sm-3 mt-md-1 mt-lg-1 mt-xl-1">
+           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+             <h2 class="text-center">Just sign in and go</h2>
+             <p class="text-center small pt-2 pt-sm-2 pt-md-2 pt-lg-2 pt-xl-2">Access your favorite Microsoft products and services with just one login. From Office and Windows 
+                to Xbox and Skype, one username and password connects you to the files, photos, people, and
+                content you care about most.
+             </p>
+            </div>
+       </section>
+
+       <!--Image container 3 for extra small, movile, tablet & laptop screen sizes-->
+       <div class="row img-container-3 mt-3 mt-sm-3 mt-md-3 d-xl-none">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 card border-0">
+            <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+            <div class="card-body">
+              <h6 class="card-title text-capitalize text-left">outlook</h6>
+              <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+              <a href="#" class="text-primary text-left">Learn more ></a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 card border-0">
+            <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+            <div class="card-body">
+              <h6 class="card-title text-capitalize text-left">outlook</h6>
+              <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+              <a href="#" class="text-primary text-left">Learn more ></a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 card border-0">
+            <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+            <div class="card-body">
+              <h6 class="card-title text-capitalize text-left">outlook</h6>
+              <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+              <a href="#" class="text-primary text-left">Learn more ></a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 card border-0">
+            <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+            <div class="card-body">
+              <h6 class="card-title text-capitalize text-left">outlook</h6>
+              <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+              <a href="#" class="text-primary text-left">Learn more ></a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 card border-0">
+            <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+            <div class="card-body">
+              <h6 class="card-title text-capitalize text-left">outlook</h6>
+              <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+              <a href="#" class="text-primary text-left">Learn more ></a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 card border-0">
+            <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+            <div class="card-body">
+              <h6 class="card-title text-capitalize text-left">outlook</h6>
+              <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+              <a href="#" class="text-primary text-left">Learn more ></a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 card border-0">
+            <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+            <div class="card-body">
+              <h6 class="card-title text-capitalize text-left">outlook</h6>
+              <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+              <a href="#" class="text-primary text-left">Learn more ></a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 card border-0">
+            <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+            <div class="card-body">
+              <h6 class="card-title text-capitalize text-left">outlook</h6>
+              <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+              <a href="#" class="text-primary text-left">Learn more ></a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 card border-0">
+            <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+            <div class="card-body">
+              <h6 class="card-title text-capitalize text-left">outlook</h6>
+              <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+              <a href="#" class="text-primary text-left">Learn more ></a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 card border-0">
+            <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+            <div class="card-body">
+              <h6 class="card-title text-capitalize text-left">outlook</h6>
+              <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+              <a href="#" class="text-primary text-left">Learn more ></a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 card border-0">
+            <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+            <div class="card-body">
+              <h6 class="card-title text-capitalize text-left">outlook</h6>
+              <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+              <a href="#" class="text-primary text-left">Learn more ></a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 card border-0">
+            <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+            <div class="card-body">
+              <h6 class="card-title text-capitalize text-left">outlook</h6>
+              <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+              <a href="#" class="text-primary text-left">Learn more ></a>
+            </div>
+          </div>
+       </div>
+       
+       <!--Image container 3 for screen sizes more than or equal to 1084px-->
+       <div class="row img-container-3-2 d-none d-sm-none d-md-none d-lg-none d-xl-flex">
+        <div class="card border border-left-0 border-top-0 border-bottom-0 border-secondary grid-3-1 mt-3">
+          <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+          <div class="card-body">
+            <h6 class="card-title text-capitalize text-left">outlook</h6>
+            <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+            <a href="#" class="text-primary text-left">Learn more ></a>
+          </div>
+        </div>
+
+        <div class="card border border-left-0 border-top-0 border-bottom-0 border-secondary grid-3-2 mt-3">
+          <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+          <div class="card-body">
+            <h6 class="card-title text-capitalize text-left">outlook</h6>
+            <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+            <a href="#" class="text-primary text-left">Learn more ></a>
+          </div>
+        </div>
+
+        <div class="card border border-left-0 border-top-0 border-bottom-0 border-secondary grid-3-3 mt-3">
+          <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+          <div class="card-body">
+            <h6 class="card-title text-capitalize text-left">outlook</h6>
+            <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+            <a href="#" class="text-primary text-left">Learn more ></a>
+          </div>
+        </div>
+
+        <div class="card border-0 grid-3-4 mt-3">
+          <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+          <div class="card-body">
+            <h6 class="card-title text-capitalize text-left">outlook</h6>
+            <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+            <a href="#" class="text-primary text-left">Learn more ></a>
+          </div>
+        </div>
+
+        <div class="card border border-left-0 border-top-0 border-bottom-0 border-secondary grid-3-5 mt-4">
+          <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+          <div class="card-body">
+            <h6 class="card-title text-capitalize text-left">outlook</h6>
+            <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+            <a href="#" class="text-primary text-left">Learn more ></a>
+          </div>
+        </div>
+
+        <div class="card border border-left-0 border-top-0 border-bottom-0 border-secondary grid-3-6 mt-4">
+          <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+          <div class="card-body">
+            <h6 class="card-title text-capitalize text-left">outlook</h6>
+            <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+            <a href="#" class="text-primary text-left">Learn more ></a>
+          </div>
+        </div>
+
+        <div class="card border border-left-0 border-top-0 border-bottom-0 border-secondary grid-3-7 mt-4">
+          <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+          <div class="card-body">
+            <h6 class="card-title text-capitalize text-left">outlook</h6>
+            <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+            <a href="#" class="text-primary text-left">Learn more ></a>
+          </div>
+        </div>
+
+        <div class="card border-0 grid-3-8 mt-4">
+          <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+          <div class="card-body">
+            <h6 class="card-title text-capitalize text-left">outlook</h6>
+            <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+            <a href="#" class="text-primary text-left">Learn more ></a>
+          </div>
+        </div>
+
+        <div class="card border border-left-0 border-top-0 border-bottom-0 border-secondary grid-3-9 mt-4">
+          <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+          <div class="card-body">
+            <h6 class="card-title text-capitalize text-left">outlook</h6>
+            <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+            <a href="#" class="text-primary text-left">Learn more ></a>
+          </div>
+        </div>
+
+        <div class="card border border-left-0 border-top-0 border-bottom-0 border-secondary grid-3-10 mt-4">
+          <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+          <div class="card-body">
+            <h6 class="card-title text-capitalize text-left">outlook</h6>
+            <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+            <a href="#" class="text-primary text-left">Learn more ></a>
+          </div>
+        </div>
+
+        <div class="card border border-left-0 border-top-0 border-bottom-0 border-secondary grid-3-11 mt-4">
+          <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+          <div class="card-body">
+            <h6 class="card-title text-capitalize text-left">outlook</h6>
+            <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+            <a href="#" class="text-primary text-left">Learn more ></a>
+          </div>
+        </div>
+
+        <div class="card border-0 grid-3-12 mt-4">
+          <img src="images/image-3.png" alt="Image 3" class="card-img-top ml-3 ml-sm-3 ml-md-3"/>
+          <div class="card-body">
+            <h6 class="card-title text-capitalize text-left">outlook</h6>
+            <p class="small text-left">Email and calendar together. All you need to be your most productive and connected self-at home, on the go, and everywhere in between.</p>
+            <a href="#" class="text-primary text-left">Learn more ></a>
+          </div>
+        </div>
+       </div>
+      </main>
+      
+      <footer class="d-flex d-sm-flex d-md-flex d-lg-flex d-lg-flex justify-content-around justify-content-sm-around justify-content-md-around justify-content-lg-around justify-content-xl-around mt-3 p-4">
+        <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-lg-flex justify-content-between justify-content-sm-between justify-content-md-between justify-content-lg-between justify-content-xl-between">
+          <i class="material-icons text-muted mr-3">public</i>
+          <p class="text-muted small">English (United States)</p>
+        </div>
+
+        <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-lg-flex justify-content-between justify-content-sm-between justify-content-md-between justify-content-lg-between justify-content-xl-between">
+          <a href="#" class="text-muted small mr-3">Privacy &amp; cookies</a>
+          <a href="#" class="text-muted small mr-3">Terms of use</a>
+          <a href="#" class="text-muted small mr-3">Contact us</a>
+          <a href="#" class="text-muted small mr-3">Feedback</a>
+          <a href="#" class="text-muted small">&copy; Microsoft 2020</a>
+        </div>
+      </footer>
 
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
