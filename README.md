@@ -1,4 +1,4 @@
-# Slack Web page - Capstone 1 Project Practice
+# Microsoft Web page - Capstone 1 Project Practice
 
 This is a solo project where I had to replicate/clone the <a href="https://account.microsoft.com/account/Account?refd=login.live.com&ru=https%3A%2F%2Faccount.microsoft.com%2F%3Frefd%3Dlogin.live.com&destrt=home-index">Microsoft web page.</a>
 
